@@ -1,0 +1,23 @@
+.xxx {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.a {
+    background-color: #7b7bd7;
+    width: 1000px;
+    height: 200px;
+}
+
+.b {
+    background-color: #0e1318;
+    width: 800px;
+    height: 400px;
+
+}
+.c{
+    background-color: #102c49;
+    width: 200px;
+    height: 400px;
+}

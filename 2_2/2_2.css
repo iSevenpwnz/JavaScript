@@ -1,0 +1,26 @@
+.widgets {
+    background-color: #235db7;
+    width: 600px;
+    height: 200px;
+}
+
+.size_widgets {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 10px 0 10px 0;
+
+}
+
+.big_widgets, .bigger_widgets, .huge_widgets {
+    background-color: #101ca1;
+    width: 150px;
+    height: 200px;
+}
+
+
+.contact {
+    background-color: #235db7;
+    width: 600px;
+    height: 600px;
+}
