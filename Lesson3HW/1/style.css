@@ -1,22 +1,21 @@
-.xxx {
+.container {
     width: 1000px;
-    height: auto;
     display: flex;
     flex-wrap: wrap;
 }
-.a {
+.header {
     background-color: #7b7bd7;
     width: 1000px;
     height: 200px;
 }
 
-.b {
+.left_side {
     background-color: #0e1318;
     width: 800px;
     height: 400px;
 
 }
-.c{
+.right_side{
     background-color: #102c49;
     width: 200px;
     height: 400px;

@@ -8,7 +8,7 @@
     height: 100px;
 }
 
-.menu {
+.father__menu {
     background-color: #cb6fea;
     width: 300px;
 }
@@ -19,18 +19,21 @@
     display: flex;
     margin-top: 20px;
 }
-.post{
-    background-color: cornflowerblue;
-    width: 680px;
-    height: 300px;
-    margin-left: 20px;
-}
-.mother{
+
+.post {
     width: 700px;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
-.footer{
+
+.post__post {
+    background-color: cornflowerblue;
+    width: 680px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.footer {
     margin-top: 20px;
 }
