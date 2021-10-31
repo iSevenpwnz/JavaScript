@@ -21,28 +21,30 @@
         display: flex;
     }
 
-    .header__title{
+    
+    .header__title {
         text-align: center;
-
     }
 
     .header__title h2 {
         font-size: 36px;
 
-    }.header__title h1 {
+    }
+
+    .header__title h1 {
         font-size: 46px;
     }
 
-.header__title p::before, .header__title p::after{
-    display: none;
-}
+    .header__title p::before, .header__title p::after {
+        display: none;
+    }
 
-.history__border{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    row-gap: 15px;
-}
+    .history__border {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 15px;
+    }
 
 }
 
