@@ -1,4 +1,4 @@
-.header{
+.header__top{
     width: 1920px;
     height: 36px;
     background: #0F2438;
@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-around;
 }
-.header_left{
+.header__top__left{
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
@@ -27,8 +27,7 @@
     align-self: center;
 }
 .ptichka_img {
-    display: flex;
-}
+    display: flex;}  /* 290px padding left*/
 .ptichka_img h4{
     font-weight: 500;
     font-size: 14px;
@@ -41,8 +40,7 @@
     align-self: center;
     padding-left: 5px;
 }
-
-.header_right ul{
+.header__top__right ul{
     list-style-type: none;
     display: flex;
     font-weight: 500;
@@ -50,4 +48,43 @@
     line-height: 16px;
     color: #FFFFFF;
     column-gap: 30px;
+}
+
+.header{
+    width: 1920px;
+    height: 198px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.info__top {
+    width: 246px;
+    height: 83px;
+    padding-left: 290px;
+}
+.logo_shop{
+    display: flex;
+}
+.logo_shop h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+    margin-bottom: 0;
+
+
+}
+.logo_shop p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+
+}
+
+.logo_shop img{
+    padding-top: 20px;
+    width: 66px;
+    height: 71px;
+    align-self: center;
 }
