@@ -6,23 +6,74 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML_Final</title>
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="stylesheet" href="css/styleMiniBar.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="your__city">
-    <div class="window__text">
-        <h2>Выберите свой город</h2>
-        <img src="img/close%201.png" alt="close">
+<div class="minibar">
+    <div class="your__city">
+        <div class="window__text">
+            <h2>Выберите свой город</h2>
+            <img src="img/close%201.png" alt="close">
+        </div>
+        <label>
+            <input type="text" placeholder="Ваш город">
+        </label>
+        <ul class="cities">
+            <li>Москва</li>
+            <li>Санкт-Петербург</li>
+            <li>Краснодар</li>
+            <li>Екатеринбург</li>
+            <li>Ростов-на-Дону</li>
+            <li>Самара</li>
+        </ul>
     </div>
-    <input type="text" placeholder="Ваш город" >
-    <ul class="cities">
-        <li>Москва</li>
-        <li>Санкт-Петербург</li>
-        <li>Краснодар</li>
-        <li>Екатеринбург</li>
-        <li>Ростов-на-Дону</li>
-        <li>Самара</li>
-    </ul>
+
+    <div class="Request_a_call">
+        <div class="window__text">
+            <h2>Заказать звонок</h2>
+            <img src="img/close%201.png" alt="close">
+        </div>
+        <div class="your_name">
+            <p>Ваше имя</p>
+            <input type="text" >
+        </div>
+        <div class="your__tel" >
+            <p>Номер телефона</p>
+            <input type="tel"  placeholder="+7 (999) 999-99-99">
+            <img src="img/rashka.png" alt="">
+        </div>
+        <div class="call_btn">
+            <button>Заказать звонок</button>
+        </div>
+    </div>
+
+    <div class="search_item">
+    <div class="need_item">
+        <h3 >Найденные трансмиссии:</h3>
+        <h4 class="bgh4" >6eT40</h4>
+        <h4>6eT40</h4>
+        <h4>6eT40</h4>
+    </div>
+        <div class="all_item">
+            <h3>Найденные товары:</h3>
+            <h4>Насос - Артикул / 43233</h4>
+            <h4>Соленоид - Артикул / 4493934-22</h4>
+        </div>
+    </div>
+    <div class="basket">
+        <img src="img/kolca.png" alt="kolca">
+        <div class="basket_text">
+        <h3>Товар добавлен в корзину</h3>
+        <p>Intermediate accumelator sleeve</p>
+        </div>
+        <div class="close_button"><img src="img/close%201.png" alt="close"></div>
+    </div>
 </div>
+
+
+
+
 </body>
 </html>
