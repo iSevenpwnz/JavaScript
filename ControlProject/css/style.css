@@ -1,0 +1,53 @@
+.header{
+    width: 1920px;
+    height: 36px;
+    background: #0F2438;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_left{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    column-gap: 30px;
+}
+.gps_img{
+    display: flex;
+    justify-content: center;
+}
+.gps_img span{
+    text-decoration: underline;
+}
+.gps_img img{
+    padding-left: 290px; ++++
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+.ptichka_img {
+    display: flex;
+}
+.ptichka_img h4{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF
+}
+.ptichka_img img{
+    width: 10px;
+    height: 10px;
+    align-self: center;
+    padding-left: 5px;
+}
+
+.header_right ul{
+    list-style-type: none;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    column-gap: 30px;
+}
