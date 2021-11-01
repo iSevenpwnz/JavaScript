@@ -55,6 +55,7 @@
     height: 198px;
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    display: flex;
 }
 .info__top {
     width: 246px;
@@ -87,4 +88,32 @@
     width: 66px;
     height: 71px;
     align-self: center;
+}
+
+.time__work{
+    width: 258px;
+    height: 40px;
+    box-sizing: border-box;
+}
+.clock__img{
+    margin-left: 10px;
+}
+.time__work img{
+    height: 32px;
+    width: 32px;
+}
+.time__work__info{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 20px;
+}
+.clock__img h4{
+    width: 216px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #0F2438;
 }
