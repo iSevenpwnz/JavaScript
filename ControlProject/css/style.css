@@ -1,12 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+}
+.wrapper {
+    max-width: 1354px;
+    margin: 0 auto;
+}
 .header__top {
-    width: 1920px;
-    height: 36px;
     background: #0F2438;
+    padding: 10px 0;
+}
+.header__top .wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between; 
 }
-
 .header__top__left {
     font-size: 14px;
     line-height: 16px;
@@ -18,6 +28,7 @@
 .gps_img {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .gps_img span {
@@ -25,14 +36,12 @@
 }
 
 .gps_img img {
-    padding-left: 87px;
-+ + + + width: 20 px;
-    height: 20px;
-    align-self: center;
+    width: 20px;
 }
 
 .ptichka_img {
     display: flex;
+    align-items: center;
 }
 
 .ptichka_img h4 {
@@ -44,9 +53,9 @@
 
 .ptichka_img img {
     width: 10px;
-    height: 10px;
     align-self: center;
-    padding-left: 5px;
+    margin-left: 5px;
+    display: block;
 }
 
 .header__top__right ul {
@@ -57,22 +66,22 @@
     line-height: 16px;
     color: #FFFFFF;
     column-gap: 30px;
+    margin: 0;
 }
-
+.header__top__right ul a {
+    color: #fff;
+    text-decoration: none;
+}
 .header {
-    width: 1920px;
-    height: 192px;
     background-color: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 27px 0 20px 0;
+}
+.header .wrapper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
-}
-
-.info__top {
-    width: 213px;
-    height: 83px;
-    margin-left: 290px;
+    align-items: center;
 }
 
 .logo_shop {
@@ -99,27 +108,22 @@
 }
 
 .logo_shop img {
-    padding-top: 20px;
     width: 66px;
-    height: 71px;
-    align-self: center;
 }
 
 .time__work {
     width: 258px;
-    height: 40px;
     box-sizing: border-box;
 }
 
 .time__work img {
     height: 32px;
-    width: 32px;
+    margin-right: 10px;
 }
 
 .time__work__info {
     display: flex;
     align-items: center;
-    margin-top: 20px;
 }
 
 .clock__img h4 {
@@ -134,9 +138,8 @@
 
 .strt {
     width: 180px;
-    height: 32px;
-    margin-top: 40px;
     display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -145,39 +148,31 @@
 }
 
 .strt img {
-    width: 40px;
-    height: 40px;
-    padding-right: 10px;
+     display: block;
+    margin-right: 10px;
 }
 
 .our__whatsapp {
-    width: 204px;
-    height: 30px;
     background: #E1EFD0;
     border-radius: 2px;
-    margin-top: 40px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    padding: 8px 16px;
 
 }
 
 .our__whatsapp img {
     width: 12px;
-    height: 12px;
+    margin-right: 6px;
 }
-
+.our_phone a {
+    color: #0F2438;
+    text-decoration: none;
+}
 .our__whatsapp p {
     font-size: 12px;
     line-height: 14px;
     text-align: right;
-}
-
-.our_phone {
-    width: 157px;
-    height: 40px;
-    margin-right: 195px;
-
 }
 
 .our_phone h3 {
@@ -196,9 +191,9 @@
 
 .header__bottom {
     display: flex;
-    padding-left: 293px;
-    box-sizing: border-box;
-    /*width: 1920px;*/
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
     /*height: 100px;*/
     /*background-color: #FFFFFF;*/
     /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)*/
@@ -252,11 +247,11 @@
 
 .search__bar {
     border-radius: 6px 0 0 6px;
-    display: flex;
-    justify-content: space-between;
     margin-left: 60px;
 }
-
+.search__bar form {
+    display: flex;
+}
 .search__bar input {
     width: 550px;
     height: 53px;
@@ -266,7 +261,7 @@
     background-color: #F4F5FA;
 }
 
-.search_button button {
+.search_button {
     width: 101px;
     height: 53px;
     background-color: #005BB9;

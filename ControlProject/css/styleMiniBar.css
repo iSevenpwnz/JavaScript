@@ -1,6 +1,5 @@
 
 .minibar {
-    width: 1920px;
     height: 335px;
     background-color: silver;
     display: flex;
@@ -80,7 +79,6 @@ input {
     box-sizing: border-box;
     border-radius: 6px;
 }
-
 .your_name p, .your__tel p {
     font-size: 14px;
     line-height: 16px;
@@ -96,19 +94,20 @@ input {
 
 .your__tel p {
     position: absolute;
-    top: 115px;
-    left: 37px;
+    top: -8px;
+    left: 15px;
 }
 
 .your__tel {
     margin-top: 18px;
+    position: relative;
 
 }
 
 .your__tel img {
     position: absolute;
-    left: 34px;
-    top: 154px;
+    left: 17px;
+    top: 19px;
 }
 
 .your__tel input {
