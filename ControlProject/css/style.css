@@ -1,22 +1,27 @@
 * {
     box-sizing: border-box;
 }
+
 p {
     margin: 0;
 }
+
 .wrapper {
     max-width: 1354px;
     margin: 0 auto;
 }
+
 .header__top {
     background: #0F2438;
     padding: 10px 0;
 }
+
 .header__top .wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
+
 .header__top__left {
     font-size: 14px;
     line-height: 16px;
@@ -68,15 +73,18 @@ p {
     column-gap: 30px;
     margin: 0;
 }
+
 .header__top__right ul a {
     color: #fff;
     text-decoration: none;
 }
+
 .header {
     background-color: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     padding: 27px 0 20px 0;
 }
+
 .header .wrapper {
     display: flex;
     justify-content: space-between;
@@ -148,7 +156,7 @@ p {
 }
 
 .strt img {
-     display: block;
+    display: block;
     margin-right: 10px;
 }
 
@@ -165,10 +173,12 @@ p {
     width: 12px;
     margin-right: 6px;
 }
+
 .our_phone a {
     color: #0F2438;
     text-decoration: none;
 }
+
 .our__whatsapp p {
     font-size: 12px;
     line-height: 14px;
@@ -249,9 +259,11 @@ p {
     border-radius: 6px 0 0 6px;
     margin-left: 60px;
 }
+
 .search__bar form {
     display: flex;
 }
+
 .search__bar input {
     width: 550px;
     height: 53px;
@@ -301,15 +313,186 @@ in.in-love-basket p:last-child {
     color: #0F2438;
 }
 
-.mid{
-    width: 1008px;
-    height: 390px;
+.sales_info_panel {
     box-sizing: border-box;
+    display: flex;
+    margin-top: 30px;
+}
+
+.slaider {
+    width: 1008px;
+    background: url(../img/BGSLAIDER.png) no-repeat;
+    box-sizing: border-box;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+.qwerty {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 145px;
+    align-items: center;
 
 }
-.slaider{
-    width: 1008px;
-    height: 390px;
-    background: url(../img/BGSLAIDER.png);
-    box-sizing: border-box;
+
+.banner-info {
+    width: 332px;
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.banner-item-content {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+}
+
+.art {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+    text-align: left;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+    margin: 25px 0 15px 0;
+}
+
+
+.price span {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.banner-item-btn {
+    width: 160px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+
+.banner-item-btn button {
+    width: 100%;
+    height: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;
+    background: #005BB9;
+}
+
+.banner-item-btn img {
+    margin-right: 8px;
+}
+
+.sales {
+    margin-left: 10px;
+}
+
+.sales_top, .sales_buttom {
+    display: flex;
+    width: 336px;
+    height: 190px;
+    background: #F4F5FA;
+    border-radius: 10px;
+}
+
+.sales_left_side p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    padding: 20px 0 18px 15px;
+}
+
+.sales_left_side img {
+    margin-left: 15px;
+}
+
+.sales_right_side {
+
+}
+
+.text_panel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+    padding: 54px 0 6px 15px;
+}
+
+.art_panel {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+    padding-left: 15px;
+}
+
+.price-and-btn {
+    display: flex;
+    align-items: center;
+}
+
+.price-and-btn {
+    padding-top: 23px;
+    padding-left: 15px;
+}
+
+.sales_price {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+    margin-right: 32px;
+}
+
+.sales_price span {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.sales_nav_btn {
+    width: 57px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.sales_nav_btn button {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.sales_nav_btn img {
+    padding: 16px 20px 16px 20px;
+}
+
+.sales_buttom {
+    margin-top: 10px;
 }

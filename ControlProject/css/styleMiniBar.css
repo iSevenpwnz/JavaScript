@@ -21,8 +21,14 @@ ul.cities {
     padding-left: 0;
 }
 
-.cities li:first-child {
-    color: #005BB9
+.cities a {
+    text-underline: none;
+    text-decoration: none;
+    color: #0F2438;
+}
+
+.cities span{
+    color: #005BB9;
 }
 
 .cities li {
@@ -34,6 +40,7 @@ ul.cities {
     line-height: 16px;
     display: flex;
     align-items: center;
+    color: #0F2438;
 }
 
 .window__text {
@@ -79,6 +86,7 @@ input {
     box-sizing: border-box;
     border-radius: 6px;
 }
+
 .your_name p, .your__tel p {
     font-size: 14px;
     line-height: 16px;
