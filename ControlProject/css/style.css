@@ -561,3 +561,15 @@ in.in-love-basket p:last-child {
     background-color: transparent;
     border: none;
 }
+
+.main__item__blocks {
+    margin-top: 30px;
+}
+
+.mid__sales__block {
+    width: 316px;
+    height: 418px;
+}
+.sales_block_nav{
+    display: flex;
+}
