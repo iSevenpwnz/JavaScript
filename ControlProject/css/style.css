@@ -1,3 +1,7 @@
+body {
+    height: 1931px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -495,4 +499,65 @@ in.in-love-basket p:last-child {
 
 .sales_buttom {
     margin-top: 10px;
+}
+
+
+.mid {
+    margin-top: 70px;
+}
+
+.nav_item_btn {
+    display: flex;
+    column-gap: 20px;
+}
+
+.podbor_tovarov {
+    width: 241px;
+    height: 55px;
+    background: #005BB9;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.podbor_tovarov button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-top: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.podbor_tovarov_sales, .podbor_tovarov_nowbuy {
+    width: 123px;
+    height: 55px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.podbor_tovarov_sales button {
+    padding: 20px 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 12px;
+    color: #005BB9;
+    background-color: transparent;
+    border: none;
+}
+
+.podbor_tovarov_nowbuy {
+    width: 229px;
+    height: 55px;
+}
+
+.podbor_tovarov_nowbuy button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    color: #005BB9;
+    padding: 16px 30px;
+    background-color: transparent;
+    border: none;
 }
