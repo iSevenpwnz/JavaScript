@@ -797,8 +797,6 @@ button.owl-prev button {
 
 .mid__down {
     margin-top: 80px;
-    height: 500px;
-
 }
 
 .news {
@@ -912,4 +910,60 @@ button.owl-prev button {
 
 .main__trio {
     margin-right: 177px;
+}
+
+.footer{
+    width: 1920px;
+    height: 408px;
+    background: #0C1A2A;
+    margin-top: 120px;
+}
+.footer_info ul{
+    padding: 0;
+}
+.footer_main_info{
+    display: flex;
+    column-gap: 90px;
+    padding-top: 36px;
+}
+.catalog li, .rybinator li, .footer_info li{
+    list-style-type: none;
+    padding-bottom: 14px;
+}
+.catalog span, .rybinator span, .footer_info span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+
+}
+.catalog a, .rybinator a, .footer_info a{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.footer_info p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact p, .adress span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+.contact a, .adress p {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
