@@ -27,7 +27,7 @@ ul.cities {
     color: #0F2438;
 }
 
-.cities span{
+.cities span {
     color: #005BB9;
 }
 
@@ -48,6 +48,11 @@ ul.cities {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0F2438;
+    margin-top: 13px;
 }
 
 input {
@@ -85,6 +90,7 @@ input {
     border: 1px solid #E1E5F8;
     box-sizing: border-box;
     border-radius: 6px;
+    margin-top: 20px;
 }
 
 .your_name p, .your__tel p {
@@ -97,12 +103,12 @@ input {
 .your_name p {
     position: absolute;
     top: 46px;
-    right: 246px;
+    left: 33px;
 }
 
 .your__tel p {
     position: absolute;
-    top: -8px;
+    top: 13px;
     left: 15px;
 }
 
@@ -114,8 +120,8 @@ input {
 
 .your__tel img {
     position: absolute;
-    left: 17px;
-    top: 19px;
+    left: 21px;
+    top: 38px;
 }
 
 .your__tel input {

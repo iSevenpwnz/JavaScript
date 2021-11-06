@@ -39,6 +39,12 @@ p {
     justify-content: center;
     align-items: center;
 }
+.gps_img p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
 
 .gps_img span {
     text-decoration: underline;
@@ -52,12 +58,11 @@ p {
     display: flex;
     align-items: center;
 }
-
-.ptichka_img h4 {
+.ptichka_img p{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .ptichka_img img {
@@ -98,6 +103,7 @@ p {
 
 .logo_shop {
     display: flex;
+    align-items: center;
 }
 
 .logo_shop h3 {
@@ -912,58 +918,122 @@ button.owl-prev button {
     margin-right: 177px;
 }
 
-.footer{
+.footer {
     width: 1920px;
     height: 408px;
     background: #0C1A2A;
     margin-top: 120px;
 }
-.footer_info ul{
+
+.footer ul {
     padding: 0;
 }
-.footer_main_info{
+
+.footer_main_info {
     display: flex;
     column-gap: 90px;
     padding-top: 36px;
+    margin-left: 12%;
 }
-.catalog li, .rybinator li, .footer_info li{
+
+.catalog li, .rybinator li, .footer_info li {
     list-style-type: none;
     padding-bottom: 14px;
 }
-.catalog span, .rybinator span, .footer_info span{
+
+.catalog span, .rybinator span, .footer_info span {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #868DAC;
 
 }
-.catalog a, .rybinator a, .footer_info a{
+
+.catalog a, .rybinator a, .footer_info a {
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
     text-decoration: none;
 
 }
-.footer_info p{
+
+.footer_info p {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
 }
-.contact{
+
+.our__contact {
+    height: 121px;
+    display: flex;
+}
+
+.contact {
     display: flex;
     flex-direction: column;
 }
-.contact p, .adress span{
+
+.contact p, .adress span, .our_forms p, .discription_footer_info p {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #868DAC;
 }
-.contact a, .adress p {
+
+.contact a, .adress p, .our_forms a {
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+}
+
+.adress {
+    margin-left: 107px;
+}
+
+.our_forms a {
+    padding-left: 23px;
+}
+
+.discription_footer_info p {
+    padding-top: 23px;
+}
+
+.footer_input_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 470px;
+    height: 40px;
+    border: 1px solid #203246;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.footer_input_info input {
+    width: 470px;
+    height: 40px;
+    border: 1px solid #203246;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: #0C1A2A;
+    color: #ADBDD1;
+}
+
+.footer_input_info button {
+    width: 177px;
+    height: 40px;
+    background-color: #005BB9;
+    border-radius: 0 6px 6px 0;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.inpt {
+    display: flex;
+    justify-content: space-between;
 }
