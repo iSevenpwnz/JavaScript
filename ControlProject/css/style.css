@@ -783,7 +783,7 @@ button.owl-prev button {
     color: #0A1A2C;
 }
 
-.old_price span {
+span.old_price{
     font-size: 16px;
     line-height: 19px;
     text-decoration-line: line-through;
