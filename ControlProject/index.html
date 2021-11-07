@@ -13,69 +13,70 @@
     <link rel="stylesheet" href="css/Normalize.css">
     <link rel="stylesheet" href="css/styleMiniBar.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <div class="box">
-        <div class="minibar">
-            <div class="your__city">
-                <div class="window__text">
-                    <h2>Выберите свой город</h2>
-                    <img src="img/close%201.png" alt="close">
-                </div>
-                <label>
-                    <input type="text" placeholder="Ваш город">
-                </label>
-                <ul class="cities">
-                    <li><a href="#" style="color: #0d6efd">Москва</a></li>
-                    <li><a href="#">Санкт-Петербург</a></li>
-                    <li><a href="#">Краснодар</a></li>
-                    <li><a href="#">Екатеринбург</a></li>
-                    <li><a href="#">Ростов-на-Дону</a></li>
-                    <li><a href="#">Самара</a></li>
-                </ul>
+    <div class="minibar">
+        <div class="your__city">
+            <div class="window__text">
+                <p>Выберите свой город</p>
+                <a href="#"><img src="img/close%201.png" alt="close"></a>
             </div>
+            <label>
+                <input type="text" placeholder="Ваш город">
+            </label>
+            <ul class="cities">
+                <li><a href="#" style="color: #0d6efd">Москва</a></li>
+                <li><a href="#">Санкт-Петербург</a></li>
+                <li><a href="#">Краснодар</a></li>
+                <li><a href="#">Екатеринбург</a></li>
+                <li><a href="#">Ростов-на-Дону</a></li>
+                <li><a href="#">Самара</a></li>
+            </ul>
+        </div>
 
-            <div class="Request_a_call">
-                <div class="window__text">
-                    <p>Заказать звонок</p>
-                    <img src="img/close%201.png" alt="close">
-                </div>
-                <div class="your_name">
-                    <p>Ваше имя</p>
-                    <input type="text">
-                </div>
-                <div class="your__tel">
-                    <p>Номер телефона</p>
-                    <input type="tel" placeholder="+7 (999) 999-99-99">
-                    <img src="img/rashka.png" alt="">
-                </div>
-                <div class="call_btn">
-                    <button>Заказать звонок</button>
-                </div>
+        <div class="Request_a_call">
+            <div class="window__text">
+                <p>Заказать звонок</p>
+                <a href="#"><img src="img/close%201.png" alt="close"></a>
             </div>
-
-            <div class="search_item">
-                <div class="need_item">
-                    <h3>Найденные трансмиссии:</h3>
-                    <h4 class="bgh4">6eT40</h4>
-                    <h4>6eT40</h4>
-                    <h4>6eT40</h4>
-                </div>
-                <div class="all_item">
-                    <h3>Найденные товары:</h3>
-                    <h4>Насос - Артикул / 43233</h4>
-                    <h4>Соленоид - Артикул / 4493934-22</h4>
-                </div>
+            <div class="your_name">
+                <p>Ваше имя</p>
+                <input type="text">
             </div>
-            <div class="basket">
-                <img src="img/kolca.png" alt="kolca">
-                <div class="basket_text">
-                    <h3>Товар добавлен в корзину</h3>
-                    <p>Intermediate accumelator sleeve</p>
-                </div>
-                <div class="close_button"><img src="img/close%201.png" alt="close"></div>
+            <div class="your__tel">
+                <p>Номер телефона</p>
+                <input type="tel" placeholder="+7 (999) 999-99-99">
+                <img src="img/rashka.png" alt="">
+            </div>
+            <div class="call_btn">
+                <button>Заказать звонок</button>
             </div>
         </div>
+
+        <div class="search_item">
+            <div class="need_item">
+                <h3>Найденные трансмиссии:</h3>
+                <h4 class="bgh4">6eT40</h4>
+                <h4>6eT40</h4>
+                <h4>6eT40</h4>
+            </div>
+            <div class="all_item">
+                <h3>Найденные товары:</h3>
+                <h4>Насос - Артикул / 43233</h4>
+                <h4>Соленоид - Артикул / 4493934-22</h4>
+            </div>
+        </div>
+        <div class="basket">
+            <img src="img/kolca.png" alt="kolca">
+            <div class="basket_text">
+                <span>Товар добавлен в корзину</span>
+                <p>Intermediate accumelator sleeve</p>
+            </div>
+            <div class="close_button"><img src="img/close%201.png" alt="close"></div>
+        </div>
+    </div>
 
     <div class="header__top">
         <div class="wrapper">
@@ -93,6 +94,13 @@
                 <div class="ptichka_img">
                     <p>Сотрудничество</p>
                     <img src="img/pticadown.png" alt="pticadown">
+                </div>
+
+                <div class="ptica">
+                    <div class="ptichka_img_mobile">
+                        <p>Еще</p>
+                        <div class="ptica_wrap"><img src="img/pticadown.png" alt="pticadown"></div>
+                    </div>
                 </div>
             </div>
 
@@ -112,13 +120,13 @@
 
     </div>
 
-    <div class="header">
+    <div class="header ">
         <div class="wrapper">
             <div class="info__top">
                 <div class="logo_shop">
                     <a href="#"><img src="img/AVT-ZAP-logo.png" alt="LOGO"></a>
                     <div class="info_logo_shop">
-                        <h3>AVT-ZAP</h3>
+                        <span>AVT-ZAP</span>
                         <p>Интернет-магазин запчастей <br>для АКПП</p>
                     </div>
                 </div>
@@ -439,7 +447,7 @@
             </div>
             <div class="sales__block_rate">
                 <p><img src="img/Star%202.png" alt="star">
-                    4.5<span>10 отзывов</span>
+                    4.5 <a href="#">10 отзывов</a>
                 </p>
                 <h4>Intermediate accumelator sleeve</h4>
                 <div class="price_info">
@@ -468,7 +476,7 @@
             </div>
             <div class="sales__block_rate">
                 <p><img src="img/Star%202.png" alt="star">
-                    4.5 <span>10 отзывов</span>
+                    4.5 <a href="#">10 отзывов</a>
                 </p>
                 <h4>Комплект фрикционных дисков</h4>
                 <p class="mid__price_block">4 430₽ <span class="old_price">5 430₽</span></p>
@@ -492,7 +500,7 @@
             </div>
             <div class="sales__block_rate">
                 <p><img src="img/Star%202.png" alt="star">
-                    4.5<span>10 отзывов</span>
+                    4.5 <a href="#">10 отзывов</a>
                 </p>
                 <h4>Intermediate accumelator sleeve</h4>
                 <div class="price_info">
@@ -520,7 +528,7 @@
             </div>
             <div class="sales__block_rate">
                 <p><img src="img/Star%202.png" alt="star">
-                    4.5<span>10 отзывов</span>
+                    4.5 <a href="#">10 отзывов</a>
                 </p>
                 <h4>Intermediate accumelator sleeve</h4>
                 <div class="price_info">
@@ -550,7 +558,7 @@
             </div>
             <div class="sales__block_rate">
                 <p><img src="img/Star%202.png" alt="star">
-                    4.5<span>10 отзывов</span>
+                    4.5 <a href="#">10 отзывов</a>
                 </p>
                 <h4>Intermediate accumelator sleeve</h4>
                 <div class="price_info">
@@ -579,7 +587,7 @@
             </div>
             <div class="sales__block_rate">
                 <p><img src="img/Star%202.png" alt="star">
-                    4.5 <span>10 отзывов</span>
+                    4.5 <a href="#">10 отзывов</a>
                 </p>
                 <h4>Комплект фрикционных дисков</h4>
                 <p class="mid__price_block">4 430₽ <span class="old_price">5 430₽</span></p>
@@ -603,7 +611,7 @@
             </div>
             <div class="sales__block_rate">
                 <p><img src="img/Star%202.png" alt="star">
-                    4.5<span>10 отзывов</span>
+                    4.5 <a href="#">10 отзывов</a>
                 </p>
                 <h4>Intermediate accumelator sleeve</h4>
                 <div class="price_info">
@@ -631,7 +639,7 @@
             </div>
             <div class="sales__block_rate">
                 <p><img src="img/Star%202.png" alt="star">
-                    4.5<span>10 отзывов</span>
+                    4.5 <a href="#">10 отзывов</a>
                 </p>
                 <h4>Intermediate accumelator sleeve</h4>
                 <div class="price_info">
@@ -841,8 +849,6 @@
     </div>
 
 </div>
-
-
 
 
 <script src="js/jquery.js"></script>

@@ -34,11 +34,15 @@ p {
     column-gap: 30px;
 }
 
+.window__text p {
+}
+
 .gps_img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .gps_img p {
     font-weight: 500;
     font-size: 14px;
@@ -58,7 +62,8 @@ p {
     display: flex;
     align-items: center;
 }
-.ptichka_img p{
+
+.ptichka_img p {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -106,6 +111,13 @@ p {
     align-items: center;
 }
 
+.info_logo_shop span{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+
+}
 .logo_shop h3 {
     font-weight: bold;
     font-size: 24px;
@@ -212,7 +224,6 @@ p {
 .header__bottom {
     display: flex;
     align-items: center;
-    width: 100%;
     margin-top: 20px;
     /*height: 100px;*/
     /*background-color: #FFFFFF;*/
@@ -301,7 +312,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 65px;
 }
 
 .in-love-basket div {
@@ -571,7 +582,13 @@ in.in-love-basket p:last-child {
 
 .owl-prev, .owl-next {
     position: absolute;
-    top: 35%;
+    top: 33%;
+
+}
+
+.owl-next span {
+    height: 40px;
+    width: 40px;
 }
 
 .owl-prev {
@@ -581,6 +598,10 @@ in.in-love-basket p:last-child {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.ptichka_img_mobile{
+    display: none;
 }
 
 .owl-next {
@@ -732,7 +753,9 @@ button.owl-prev button {
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
-
+.podbor_tovarov button{
+    padding-top:4px;
+}
 .sales__block_rate p {
     font-weight: normal;
     font-size: 14px;
@@ -744,12 +767,13 @@ button.owl-prev button {
     color: #FFB800;
 }
 
-.sales__block_rate span {
+.sales__block_rate a {
     padding-left: 10px;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: #B0B0B0;
+    text-decoration: none;
 }
 
 .sales__block_rate h3 {
