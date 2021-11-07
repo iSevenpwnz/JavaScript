@@ -146,6 +146,10 @@
 
     }
 
+    .podbor_tovarov button {
+        padding-top: 4px;
+    }
+
     .footer_input {
         display: flex;
         flex-direction: column;
