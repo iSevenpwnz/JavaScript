@@ -326,6 +326,10 @@ in.in-love-basket p {
     line-height: 16px;
     text-align: center;
 }
+.in-love-basket a{
+    color: #000000;
+    text-decoration: none;
+}
 
 in.in-love-basket p:last-child {
     font-weight: normal;
