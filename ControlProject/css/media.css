@@ -3,7 +3,7 @@
         display: none;
     }
 
-    .ptichka_img, .header__top__right, .strt, .circle, .border__news {
+    .ptichka_img, .header__top__right, .strt, .circle, .border__news, .hr__bottom_news {
         display: none;
     }
 
@@ -68,6 +68,10 @@
 
     .ptichka_img_mobile {
         display: flex;
+    }
+
+    .news_block p {
+        margin-top: 10px;
     }
 
     .ptica_wrap img {
@@ -170,17 +174,20 @@
     .slaider, .qwerty {
         max-width: 320px;
     }
-    .slaider, img{
-        max-width: 320px;
-    }
-    .sales_buttom, .sales_top{
+
+    .slaider, img {
         max-width: 320px;
     }
 
-    .sales{
+    .sales_buttom, .sales_top {
+        max-width: 320px;
+    }
+
+    .sales {
         margin: 0;
     }
-    .podbor_tovarov_nowbuy{
+
+    .podbor_tovarov_nowbuy {
         padding: 0;
     }
 
