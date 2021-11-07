@@ -111,13 +111,14 @@ p {
     align-items: center;
 }
 
-.info_logo_shop span{
+.info_logo_shop span {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     color: #0F2438;
 
 }
+
 .logo_shop h3 {
     font-weight: bold;
     font-size: 24px;
@@ -205,6 +206,11 @@ p {
     font-size: 12px;
     line-height: 14px;
     text-align: right;
+}
+
+.our__whatsapp a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .our_phone h3 {
@@ -320,7 +326,7 @@ p {
     border: 1px solid #E1E5F8;
 }
 
-in.in-love-basket p {
+.in-love-basket p {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -331,7 +337,13 @@ in.in-love-basket p {
     text-decoration: none;
 }
 
-in.in-love-basket p:last-child {
+.in-love-basket a {
+    text-decoration: none;
+    color: #0F2438
+}
+
+
+.in-love-basket p:last-child {
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
@@ -604,7 +616,7 @@ in.in-love-basket p:last-child {
     border-radius: 50%;
 }
 
-.ptichka_img_mobile{
+.ptichka_img_mobile {
     display: none;
 }
 
@@ -757,9 +769,11 @@ button.owl-prev button {
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
-.podbor_tovarov button{
-    padding-top:4px;
+
+.podbor_tovarov button {
+    padding-top: 15px;
 }
+
 .sales__block_rate p {
     font-weight: normal;
     font-size: 14px;
@@ -787,7 +801,7 @@ button.owl-prev button {
     color: #0A1A2C;
 }
 
-.old_price span {
+span.old_price {
     font-size: 16px;
     line-height: 19px;
     text-decoration-line: line-through;
