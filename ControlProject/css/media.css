@@ -1,10 +1,27 @@
-@media screen and (max-width: 329px) {
+@media screen and (max-width: 321px) {
     .minibar {
         display: none;
     }
 
-    .ptichka_img, .header__top__right, .strt, .circle, .border__news, .hr__bottom_news {
+    .ptichka_img, .header__top__right, .strt, .circle, .border__news, .hr__bottom_news, .hor_line {
         display: none;
+    }
+
+    .footer_input {
+        overflow-x: hidden;
+    }
+
+    .footer_main_info {
+        margin: -2px;
+        padding-left: 20px;
+    }
+
+    .contact {
+        margin-top: 30px;
+    }
+
+    .box, .mid__sales__block {
+        overflow-x: hidden;
     }
 
     .header {
