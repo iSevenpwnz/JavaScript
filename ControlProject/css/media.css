@@ -20,29 +20,36 @@
     .logo_shop img {
         width: 36px;
     }
-    .logo_shop span{
+
+    .logo_shop span {
         width: 54px;
         height: 9px;
     }
-    .info_logo_shop p{
+
+    .info_logo_shop p {
         width: 91px;
         height: 13px;
         font-size: 10px;
 
     }
+
     .header__top {
         padding-left: 11px;
     }
-    .slide_1{
+
+    .slide_1 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        max-width: 320px;
     }
-    .sales_info_panel{
+
+    .sales_info_panel {
         display: flex;
         flex-direction: column;
     }
-    .sales{
+
+    .sales {
         width: 319px;
     }
 
@@ -75,6 +82,7 @@
 
     .search_button button {
         background: url("../img/lypa.png");
+
     }
 
     .in-love-basket {
@@ -111,18 +119,138 @@
     .time__work__info, .header__bottom h3 {
         display: none;
     }
-    .all__news_block{
+
+    .all__news_block {
         display: flex;
         flex-direction: column;
         margin-top: 20px;
     }
-.footer{
-    max-width: 319px;
-    display: flex;
-    flex-direction: column;
-}
-.footer_main_info{
-    display: flex;
-    flex-direction: column;
-}
+
+    .footer {
+        max-width: 319px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_main_info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalog {
+        margin: 0;
+
+    }
+
+    .footer_input {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 400px;
+    }
+
+    .supper_footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #0C1A2A;
+    }
+
+    .our__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .owl-item, .active {
+        width: 202px;
+    }
+
+    .slaider, .qwerty {
+        max-width: 320px;
+    }
+    .slaider, img{
+        max-width: 320px;
+    }
+    .sales_buttom, .sales_top{
+        max-width: 320px;
+    }
+
+    .sales{
+        margin: 0;
+    }
+    .podbor_tovarov_nowbuy{
+        padding: 0;
+    }
+
+    .footer_info img {
+        margin-bottom: 25px;
+    }
+
+    .discription_footer_info {
+        width: 187px;
+        height: 35px;
+    }
+
+    .slide_1 {
+        max-width: 320px;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+
+    .owl-item {
+        max-width: 320px;
+    }
+
+    .carousel__img {
+        width: 12%;
+    }
+
+    .discription_footer_info p {
+        height: 100%;
+        padding: 0;
+        margin-top: -35px;
+    }
+
+    .nav_item_btn {
+        overflow-x: hidden;
+    }
+
+    .mid__down {
+        margin-left: 20px;
+    }
+
+    .adress {
+        margin: 10px 0;
+    }
+
+    .our_forms {
+        width: 290px;
+        margin: 20px 0;
+    }
+
+    .our_forms a {
+        padding: 0;
+    }
+
+    .footer_input_info {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 270px;
+        margin-bottom: 30px;
+    }
+
+    .footer_input_info input {
+        width: 184px;
+    }
+
+    .footer_input_info button {
+        width: 107px;
+    }
+
+    .footer_search_button {
+        width: 100px;
+        margin-left: -18px;
+    }
 }
