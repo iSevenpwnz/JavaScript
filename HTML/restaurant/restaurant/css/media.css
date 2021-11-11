@@ -1,0 +1,50 @@
+@media screen and (max-width: 400px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header_logo img {
+        width: 45px;
+        height: 31px;
+    }
+
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header__top {
+        padding-top: 20px
+    }
+
+    .nav__btn_mobile {
+        display: flex;
+    }
+
+    
+    .header__title {
+        text-align: center;
+    }
+
+    .header__title h2 {
+        font-size: 36px;
+
+    }
+
+    .header__title h1 {
+        font-size: 46px;
+    }
+
+    .header__title p::before, .header__title p::after {
+        display: none;
+    }
+
+    .history__border {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+}
+
