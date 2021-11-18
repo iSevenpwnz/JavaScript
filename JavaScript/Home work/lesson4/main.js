@@ -39,5 +39,78 @@
 // func()
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
+// function write(text) {
+//     document.write(`<p> ${text} </p>`)
+// }
+// write('pishi che hoch');
+
+// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
+// function label(text) {
+//     document.write(`<ul>`)
+//     document.write(`<li> ${text}</li>`)
+//     document.write(`<li> ${text} </li>`)
+//     document.write(`<li> ${text} </li>`)
+//     document.write(`</ul>`)
+// }
+//         label('text tyt')
+
+// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
+//     Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+
+// function label(text, size) {
+//     document.write(`<ul>`)
+//     for (let i = 0; i < size; i++) {
+//     document.write(`<li> ${text}</li>`)
+//     }
+//     document.write(`</ul>`)
+// }
+//         label('text tyt', 4)
+
+// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+
+// let nums = [2, 'text', true, 6,false, 31, 'okten', 66, 100, true]
+//
+// function elem(arr) {
+//     document.write(`<ol>`)
+//     for (let i = 0; i < arr.length; i++) {
+//         document.write(`<li>${nums[i]}</li>`);
+//     }
+//     document.write(`<ol>`)
+//     }
+// elem(nums)
+
+// - створити функцію яка приймає масив об'єктів
+// з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 
 
+// let simpsons = [{
+//     id: 'Bart',
+//     surname: 'Simpson',
+//     age: 10,
+// },
+//     {
+//         id: 'Homer',
+//         surname: 'Simpson',
+//         age: 40,
+//     },
+//     {
+//         id: 'Marge',
+//         surname: 'Simpson',
+//         age: 38,
+//     },
+//     {
+//         id: 'Lisa',
+//         surname: 'Simpson',
+//         age: 9,
+//     },
+//     {
+//         id: 'Maggie',
+//         surname: 'Simpson',
+//         age: 1,
+//     }];
+//     function object(arr){
+//         for (let i = 0; i < arr.length; i++) {
+//             document.write(`<div>${arr[i].id}.${arr[i].surname} - ${arr[i].age}</div>`);
+//         }
+//     }
+// object(simpsons)
