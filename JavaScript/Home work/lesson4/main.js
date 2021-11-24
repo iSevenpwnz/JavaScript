@@ -64,7 +64,7 @@
 //     }
 //     document.write(`</ul>`)
 // }
-//         label('text tyt', 4)
+//         label('text tyt', 7)
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 
@@ -110,7 +110,7 @@
 //     }];
 //     function object(arr){
 //         for (let i = 0; i < arr.length; i++) {
-//             document.write(`<div>${arr[i].id}.${arr[i].surname} - ${arr[i].age}</div>`);
+//             document.write(`<div>${arr[i].id}.${arr[i].surname} ${arr[i].age}</div>`);
 //         }
 //     }
 // object(simpsons)
